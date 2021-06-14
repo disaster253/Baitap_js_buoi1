@@ -1,0 +1,21 @@
+# Một số lệnh sử dụng với terminal
+- cd: Lệnh di chuyển cấp thư mục. Eg: cd Desktop, cd Baitap1
+- ls: Liệt kê tất cả file và thư mục có trong thư mục hiện tại
+Cách search: terminal command
+
+# Các câu lệnh của git
+- git clone https://github.com/danndz/bc14-git.git
+=> Tải source code từ github về máy tính
+
+- git status
+=> Kiểm tra trạng thái của các file có sự thay đổi hoặc file mới
+
+- git add index.html
+=> Xác nhận thêm file index.html vào vùng staging
+- git add .
+=> Xác nhận thêm tất cả các file
+- git commit -m "message"
+=> Commit những file đã thay đổi ở phân vùng staging, đưa vào phần vùng local respository, và kèm theo một message
+
+- git push
+=> Push những thay đổi đã commit từ local respository => remote respository
