@@ -1,0 +1,11 @@
+var tenPhim = "Iron Man";
+var giaVeNguoiLon = 80000;
+var soVeNguoiLon = 55;
+var giaVeTreEm = 50000;
+var soVeTreEm = 16;
+var phanTram = 10;
+var tongDoanhThu = ((soVeNguoiLon * giaVeNguoiLon) + (soVeTreEm * giaVeTreEm));
+var tienTuThien = ((tongDoanhThu * phanTram) / 100);
+var tienConLai = (tongDoanhThu - tienTuThien);
+var tongVe = (soVeNguoiLon + soVeTreEm);
+console.log(tongDoanhThu, tienTuThien, tienConLai, tongVe);
